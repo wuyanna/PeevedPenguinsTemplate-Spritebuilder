@@ -29,7 +29,7 @@ static const float MIN_SPEED = 5.f;
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
     // visualize physics bodies & joints
-    _physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = NO;
 
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
